@@ -3,78 +3,74 @@ import { Testimonial, FaqItem, BonusItem } from './types';
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: 1,
-    name: "Mariana R.",
-    age: 34,
-    text: "Creía que me estaba volviendo loca. El médico solo me daba pastillas, pero yo seguía con el corazón a mil y un calor insoportable. Esta guía me enseñó a calmar mi sistema nervioso. Por fin duermo 7 horas seguidas.",
-    symptomRelief: ["Dormejor", "Menos ansiedad", "Calma mental"]
+    name: "Carolina M.",
+    age: 38,
+    text: "Llevaba 3 años subiendo de peso aunque casi no comía. Los médicos decían que mis niveles estaban 'normales'. Con la guía entendí qué alimentos me inflamaban. En 3 semanas la niebla mental desapareció y ya bajé 4 kilos.",
+    symptomRelief: ["Claridad mental", "Pérdida de peso", "Más energía"]
   },
   {
     id: 2,
-    name: "Claudia S.",
-    age: 42,
-    text: "Bajé 8 kilos sin querer y estaba asustada. La guía no solo me ayudó a entender qué comer para estabilizarme, sino que las técnicas de respiración frenaron mis crisis de pánico. Recuperé mi peso y mi paz.",
-    symptomRelief: ["Peso estable", "Sin pánico", "Más energía"]
+    name: "Valeria T.",
+    age: 45,
+    text: "El cansancio era tan fuerte que no podía jugar con mis hijos. Pensé que era depresión, pero era mi tiroides pidiendo ayuda. Los suplementos recomendados y la rutina de noche cambiaron mi vida.",
+    symptomRelief: ["Adiós fatiga", "Buen humor", "Piel hidratada"]
   },
   {
     id: 3,
-    name: "Elena G.",
-    age: 29,
-    text: "Nadie te explica lo que se siente vivir acelerada por dentro. Sentía que mi cuerpo vibraba. Con las rutinas de la guía, esa vibración paró. Ahora entiendo mis análisis y tengo el control.",
-    symptomRelief: ["Cero temblores", "Control total", "Entendimiento"]
+    name: "Sofía L.",
+    age: 31,
+    text: "Se me caía el pelo a mechones y vivía con frío. Nadie me explicó que el estrés bloqueaba mi medicación. Aplicar las técnicas de gestión emocional y detox hizo que mis anticuerpos bajaran por primera vez.",
+    symptomRelief: ["Pelo fuerte", "Menos frío", "Anticuerpos bajos"]
   },
   {
     id: 4,
-    name: "Patricia M.",
-    age: 51,
-    text: "Después de 10 años con hipertiroidismo, es la primera vez que siento que tengo una hoja de ruta. Las palpitaciones bajaron drásticamente en la segunda semana aplicando los hábitos de calma.",
-    symptomRelief: ["Menos palpitaciones", "Estabilidad", "Tranquilidad"]
+    name: "Ana P.",
+    age: 52,
+    text: "Creí que a mi edad ya no había solución. Este manual no es solo dieta, es entender tu cuerpo. Me siento mejor ahora que hace 10 años. ¡Y las recetas son deliciosas!",
+    symptomRelief: ["Vitalidad", "Sueño profundo", "Digestión feliz"]
   }
 ];
 
 export const FAQS: FaqItem[] = [
   {
-    question: "¿Sirve si ya tomo medicación (metimazol/danantizol)?",
-    answer: "Sí, absolutamente. La guía no reemplaza tu medicación, sino que complementa el tratamiento médico trabajando sobre tu sistema nervioso, alimentación y hábitos diarios para potenciar tu bienestar y reducir los síntomas que la pastilla sola a veces no cubre."
+    question: "¿Sirve si ya tomo Levotiroxina (Eutirox/T4)?",
+    answer: "Sí, es el complemento ideal. La medicación repara la falta de hormona, pero no trata la causa autoinmune ni la inflamación. Este manual te ayuda a que tu cuerpo convierta y absorba mejor esa medicación."
   },
   {
-    question: "¿Me va a ayudar a recuperar peso saludable?",
-    answer: "Sí. Tenemos un módulo específico dedicado a la recuperación de peso saludable sin la ansiedad de 'comer por comer', enfocándonos en nutrición densa y estabilizadora que tu cuerpo acelerado necesita."
+    question: "¿Tengo que dejar de comer todo lo que me gusta?",
+    answer: "No. Se trata de sustituir, no de prohibir. Aprenderás a identificar qué alimentos (como gluten o lácteos procesados) pueden estar atacando tu tiroides y encontrarás alternativas deliciosas en nuestro recetario."
   },
   {
-    question: "¿Qué hacer cuando tengo palpitaciones?",
-    answer: "La guía incluye una 'Hoja de Ruta de Emergencia' y técnicas de respiración específicas diseñadas para activar el nervio vago y reducir la frecuencia cardíaca de manera natural en momentos de crisis."
+    question: "¿Es complicado de seguir si trabajo todo el día?",
+    answer: "Está diseñado para la mujer moderna. Las rutinas de la mañana y noche toman menos de 10 minutos. No necesitas cocinar por horas ni vivir en el gimnasio; se trata de pequeños cambios estratégicos."
   },
   {
-    question: "¿Cuánto tarda en sentirse una mejora?",
-    answer: "Muchas alumnas reportan alivio en la sensación de 'aceleración' y mejor descanso en los primeros 7 a 10 días de aplicar la rutina de calma nocturna y los cambios nutricionales básicos."
+    question: "¿En cuánto tiempo veré resultados?",
+    answer: "Muchas mujeres reportan mayor energía y menos hinchazón en los primeros 7-10 días al aplicar el protocolo antiinflamatorio. La recuperación del cabello y peso es progresiva, notando grandes cambios a los 3 meses."
   },
   {
-    question: "¿Puedo seguirla si trabajo muchas horas?",
-    answer: "Está diseñada para mujeres ocupadas. Las rutinas son breves y prácticas. No necesitas horas libres, solo pequeños momentos de consciencia y ajustes en tu día a día que te devolverán energía en lugar de quitártela."
-  },
-  {
-    question: "¿Qué estudios tengo que pedir exactamente?",
-    answer: "En el Módulo 1 te damos una lista detallada (más allá de TSH y T4L) para que puedas conversar con tu endocrinólogo y tener un panorama completo de tu salud tiroidea, hepática y nutricional."
+    question: "¿Qué pasa si tengo hipotiroidismo pero no Hashimoto?",
+    answer: "El 90% de los casos de hipotiroidismo son causados por Hashimoto (aunque no te lo hayan diagnosticado). Aún si no fuera autoinmune, las estrategias de nutrición y metabolismo de esta guía son totalmente aplicables para reactivar tu tiroides."
   }
 ];
 
 export const BONUSES: BonusItem[] = [
   {
-    title: "Menú Calmante de 7 Días",
-    description: "Un plan de comidas diseñado para bajar la inflamación y nutrir un metabolismo acelerado.",
+    title: "Bonus #1: Checklist de Alimentos",
+    description: "Guía visual para identificar qué activa tu tiroides y qué la bloquea. Aprende a comer de forma antiinflamatoria.",
     value: "Valor: $27 USD",
-    imageUrl: "https://picsum.photos/id/493/300/400"
+    imageUrl: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800"
   },
   {
-    title: "Lista de Compras Estabilizadora",
-    description: "Sabe exactamente qué comprar en el supermercado para apoyar a tu tiroides y evitar disparadores.",
+    title: "Bonus #2: Tabla de Suplementos",
+    description: "Descubre qué minerales (Selenio, Zinc, Magnesio) realmente necesitas, dosis y cómo tomarlos para potenciar tu medicación.",
     value: "Valor: $15 USD",
-    imageUrl: "https://picsum.photos/id/225/300/400"
+    imageUrl: "https://images.unsplash.com/photo-1512069772995-ec65ed45afd0?auto=format&fit=crop&q=80&w=800"
   },
   {
-    title: "Guía de Manejo de Crisis",
-    description: "Protocolo SOS paso a paso para momentos de taquicardia, calor extremo o ansiedad súbita.",
+    title: "Bonus #3: Diario de Energía",
+    description: "Un plan de 7 días para reconectar con tu cuerpo, identificar patrones emocionales y escuchar lo que tu tiroides dice.",
     value: "Valor: $35 USD",
-    imageUrl: "https://picsum.photos/id/364/300/400"
+    imageUrl: "https://images.unsplash.com/photo-1544367563-12123d8965cd?auto=format&fit=crop&q=80&w=800"
   }
 ];
